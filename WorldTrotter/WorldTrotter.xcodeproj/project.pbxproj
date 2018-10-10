@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9CC7BB92216AC7FB00D8877E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7BB91216AC7FB00D8877E /* AppDelegate.swift */; };
-		9CC7BB94216AC7FB00D8877E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7BB93216AC7FB00D8877E /* ViewController.swift */; };
 		9CC7BB97216AC7FB00D8877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC7BB95216AC7FB00D8877E /* Main.storyboard */; };
 		9CC7BB99216AC7FB00D8877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC7BB98216AC7FB00D8877E /* Assets.xcassets */; };
 		9CC7BB9C216AC7FB00D8877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC7BB9A216AC7FB00D8877E /* LaunchScreen.storyboard */; };
 		9CC7BBA7216AC7FB00D8877E /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7BBA6216AC7FB00D8877E /* WorldTrotterTests.swift */; };
 		9CC7BBB2216AC7FB00D8877E /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7BBB1216AC7FB00D8877E /* WorldTrotterUITests.swift */; };
+		9CC7BBC0216D861800D8877E /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7BBBF216D861800D8877E /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9CC7BB8E216AC7FB00D8877E /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC7BB91216AC7FB00D8877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CC7BB93216AC7FB00D8877E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CC7BB96216AC7FB00D8877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC7BB98216AC7FB00D8877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC7BB9B216AC7FB00D8877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		9CC7BBAD216AC7FB00D8877E /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC7BBB1216AC7FB00D8877E /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		9CC7BBB3216AC7FB00D8877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC7BBBF216D861800D8877E /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				9CC7BB91216AC7FB00D8877E /* AppDelegate.swift */,
-				9CC7BB93216AC7FB00D8877E /* ViewController.swift */,
 				9CC7BB95216AC7FB00D8877E /* Main.storyboard */,
+				9CC7BBBF216D861800D8877E /* ConversionViewController.swift */,
 				9CC7BB98216AC7FB00D8877E /* Assets.xcassets */,
 				9CC7BB9A216AC7FB00D8877E /* LaunchScreen.storyboard */,
 				9CC7BB9D216AC7FB00D8877E /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC7BB94216AC7FB00D8877E /* ViewController.swift in Sources */,
+				9CC7BBC0216D861800D8877E /* ConversionViewController.swift in Sources */,
 				9CC7BB92216AC7FB00D8877E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
