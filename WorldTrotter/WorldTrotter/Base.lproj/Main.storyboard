@@ -27,8 +27,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degress Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVs-9E-qKL">
-                                <rect key="frame" x="40.5" y="120" width="294" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVs-9E-qKL">
+                                <rect key="frame" x="40" y="120" width="295.5" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -45,8 +45,8 @@
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14F-4J-DKJ">
-                                <rect key="frame" x="64.5" y="314" width="246" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14F-4J-DKJ">
+                                <rect key="frame" x="65" y="314" width="245.5" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -69,17 +69,23 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="SVs-9E-qKL" firstAttribute="centerX" secondItem="nci-p7-PjM" secondAttribute="centerX" id="0fF-2h-Dlz"/>
+                            <constraint firstItem="KC2-NS-NOL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0xA-sN-nco"/>
                             <constraint firstItem="nci-p7-PjM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="85h-ZJ-8tr"/>
                             <constraint firstItem="kAD-kg-orF" firstAttribute="top" secondItem="KC2-NS-NOL" secondAttribute="bottom" constant="8" id="91a-Pd-vPQ"/>
+                            <constraint firstItem="14F-4J-DKJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9WD-9U-rWR"/>
                             <constraint firstItem="SVs-9E-qKL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HTT-ri-lb0"/>
                             <constraint firstItem="nci-p7-PjM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jdg-wB-mVz"/>
                             <constraint firstItem="14F-4J-DKJ" firstAttribute="top" secondItem="kAD-kg-orF" secondAttribute="bottom" constant="8" id="KN3-58-le0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SVs-9E-qKL" secondAttribute="trailing" id="LRs-Cq-hIf"/>
+                            <constraint firstItem="SVs-9E-qKL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OV2-3c-G0G"/>
                             <constraint firstItem="KC2-NS-NOL" firstAttribute="top" secondItem="SVs-9E-qKL" secondAttribute="bottom" constant="8" id="S5s-Ji-SAy"/>
                             <constraint firstItem="14F-4J-DKJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UUf-Fe-P8c"/>
                             <constraint firstItem="nci-p7-PjM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="V6I-a0-LJm"/>
                             <constraint firstItem="KC2-NS-NOL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cnQ-my-sDS"/>
                             <constraint firstItem="kAD-kg-orF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gr4-b8-cGY"/>
                             <constraint firstItem="SVs-9E-qKL" firstAttribute="top" secondItem="nci-p7-PjM" secondAttribute="bottom" constant="8" id="hLG-Vq-ZgK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KC2-NS-NOL" secondAttribute="trailing" id="hRG-Sv-8Ni"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14F-4J-DKJ" secondAttribute="trailing" id="pYm-6Y-rbV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -107,6 +113,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="a1t-7g-SHH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ycD-xm-88l">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
